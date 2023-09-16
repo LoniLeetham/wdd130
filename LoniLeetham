@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loni Leetham | WDD 130</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="wwr/">White Water Rafting Website</a>
+            <a href="wwr/site-plan-rafting.html">White Water Rafting Siteplan </a>
+        </nav>
+    </header>
+    <main>
+        <h1>Loni Leetham | WWD 130</h1>
+        <img src="images/profile.png" alt="My Profile Picture: Loni Leetham" width="200">
+        <p>Hi Everyone! My name is Loni Leetham. I love being creative - drawing, painting, and making things out of
+            wood. I am a part-time professional photographer and full-time preschool teacher. I love being outside,
+            camping, hiking, walking, kayaking, tubing, traveling, really anything that allows me to enjoy God's
+            creations. I am Majoring in Professional Studies with certificates in Graphic Design, Web Design and
+            Programming, and Software Development. I have been married for 20 years and 3 amazing children aged 17, 14,
+            and 12. We live in Spanish Fork, Utah USA.</p>
+    </main>
+    <footer>
+        <p>&copy;2023 ⛰️ Loni Leetham ⛰️ Spanish Fork, Utah</p>
+    </footer>
+</body>
+
+</html>
