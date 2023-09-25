@@ -37,6 +37,7 @@ main {
 
 aside {
     /*  1  */
+    position: relative;
     width: 20em;
     text-align: center;
 }
