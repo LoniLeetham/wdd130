@@ -29,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(l--heading-font);
+    font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
@@ -51,11 +51,11 @@ nav {
 nav a {
     display: block;
     color: var(--nav-link-color);
-    text-decoration: nont;
+    text-decoration: none;
     padding: 1rem;
 }
 
-nav a: link,
+nav a:link,
 nav a:visited {
     color: var(--nav-link-color);
 }
