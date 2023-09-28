@@ -19,6 +19,10 @@ h1 {
     color: steelblue;
 }
 
+h2 {
+    color: black;
+}
+
 img {
     width: 150px;
     height: auto;
