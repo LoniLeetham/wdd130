@@ -1,24 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Serif+4:opsz@8..60&display=swap');
 
 :root {
-    --primary-color: #FFD29D;
-    --secondary-color: #FFB563;
-    --accent1-color: #918450;
+    --primary-color: #efdac1;
+    --secondary-color: #f6c894;
+    --accent1-color: #72673e;
     --accent2-color: #F85E00;
-    --accent3-color: #A41623;
+    --accent3-color: #82101a;
 
-    --heading-font: "open-sans-regular", serif;
-    --paragraph-font: "open-sans-light", serif;
+    --heading-font: 'Source Serif 4', sans-serif;
+    --paragraph-font: 'Roboto', serif;
 
-    --nav-background-color: #FFD29D;
-    --nav-link-color: #F85E00;
-    --nav-hover-link-color: #FFB563;
-    --nav-hover-background-color: #FFB563;
+    --nav-background-color: #F85E00;
+    --nav-link-color: #efdac1;
+    --nav-hover-link-color: #f6c894;
+    --nav-hover-background-color: #72673e;
 }
 
 body {
-    font-family: open-sans, sans-serif;
-    font-family: var(--paragraph-fontf);
+    font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
@@ -30,12 +29,12 @@ h4,
 h5,
 h6 {
     font-family: var(--heading-font);
-    color: var(--secondary-color)
+    color: var(--accent3-color);
 }
 
 header {
     padding: 20px;
-    background-color: var(--accent1-color);
+    background-color: var(--primary-color);
 }
 
 p {
