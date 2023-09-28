@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Serif+4:opsz@8..60&display=swap');
 
 :root {
     --primary-color: #FFD29D;
@@ -7,8 +7,8 @@
     --accent2-color: #F85E00;
     --accent3-color: #A41623;
 
-    --heading-font: "open-sans-regular", serif;
-    --paragraph-font: "open-sans-light", serif;
+    --heading-font: 'Source Serif 4', serif;
+    --paragraph-font: 'Roboto', sans-serif;
 
     --nav-background-color: #FFD29D;
     --nav-link-color: #F85E00;
