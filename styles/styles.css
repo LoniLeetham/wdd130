@@ -40,16 +40,22 @@ main {
 }
 
 aside {
-    /*  1  */
+
     position: relative;
-    width: 20em;
+    width: 400px;
+    margin: 1rem;
+    border: 1px solid #000;
+    /*  1  */
+    padding: 1rem;
+    background-color: #ffffcc;
+    color: #ffcc33;
     text-align: center;
 }
 
 aside h2 {
     position: absolute;
     top: 47px;
-    left: 150px;
+    left: 170px;
 }
 
 aside img {
