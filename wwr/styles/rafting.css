@@ -16,8 +16,9 @@
     --nav-hover-background-color: #FFB563;
 }
 
-body {
-    max-width: 960px;
+main {
+    max-width: 840px;
+    font-family: var(--paragraph-font);
 }
 
 header {
@@ -31,6 +32,7 @@ header {
 nav a {
     text-decoration: none;
     color: black;
+    font-family: var(--heading-font);
 }
 
 h1,
@@ -41,28 +43,30 @@ h3 {
 }
 
 h1 {
+    margin-top: -12em;
+    margin-right: 10px;
+    padding: 10px;
     position: absolute;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 60%);
     text-align: center;
     width: 100%;
+}
+
+h2 {
+    padding: 10px;
 }
 
 
 p {
     font-family: var(--paragraph-font);
     color: var(--secondary-color);
-}
-
-body {
-    font-family: var(--paragraph-font);
-    max-width: 1024px;
-    text-align: left;
+    padding: 20px;
 }
 
 .hero img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 20em;
 }
 
 article {
@@ -71,15 +75,27 @@ article {
 }
 
 article img {
-    float: right !important;
+    float: right;
+    margin-top: -11.5em;
     padding-right: 5em;
+
 }
 
 article p {
-    margin: -20em;
-    background-color: rgba(153, 153, 102, 40%);
+    color: black;
+    margin-top: -13em;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 50px;
+    padding-right: 20em;
+    padding-left: 5em;
+    background-color: rgba(153, 153, 102, 80%);
 
 
+}
+
+footer {
+    text-align: center;
 }
 
 .sociallinks {
