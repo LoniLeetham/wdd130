@@ -59,10 +59,9 @@ body {
     text-align: left;
 }
 
-.hero {
-    position: relative;
+.hero img {
     display: block;
-    width: 100% !important;
+    width: 100%;
     height: auto;
 }
 
@@ -72,7 +71,6 @@ article {
 }
 
 article img {
-    width: 200px !important;
     float: right !important;
     padding-right: 5em;
 }

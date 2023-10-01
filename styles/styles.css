@@ -16,6 +16,10 @@ h6 {
     margin: 1px;
 }
 
+header {
+    margin: 3px;
+}
+
 nav {
     font-family: 'source serif 4', serif;
     font-size: 15pm;
@@ -31,8 +35,7 @@ nav a {
 
 h1 {
     color: steelblue;
-    padding-top: 1em;
-    padding-left: 1em;
+    padding: 20px;
 }
 
 h2 {
@@ -42,14 +45,15 @@ h2 {
 img {
     width: 100px;
     height: auto;
+    margin-bottom: 20px;
     border: 1px solid steelblue;
-    padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 
 p {
     font-family: roboto;
-    padding: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 main {
@@ -83,9 +87,9 @@ main img {
     width: 150px;
     height: auto;
     float: right;
-    margin-right: 2em;
+    margin-right: 3em;
     margin-left: 2em;
-    margin-top: 2em;
+    margin-top: -3em;
 }
 
 footer {
