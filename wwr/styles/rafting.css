@@ -16,6 +16,12 @@
     --nav-hover-background-color: #FFB563;
 }
 
+* {
+    max-width: 840px;
+    font-family: var(--paragraph-font);
+    font-family: var(--heading-font);
+}
+
 main {
     max-width: 840px;
     font-family: var(--paragraph-font);
@@ -23,24 +29,37 @@ main {
 
 header {
     background-color: var(--primary-color);
+    max-width: 840px;
+
+}
+
+header {
+    display: grid;
+    grid-tem;
+}
+
+grap: 10px;
+
+header nav {
+    display: flex;
+    list-style: none;
+    grid-template:
 }
 
 nav a {
     text-decoration: none;
     color: black;
-    font-family: var(--heading-font);
 }
 
 h1,
 h2,
 h3 {
-    font-family: var(--heading-font);
     color: var(--accent2-color) !important;
 }
 
 h1 {
     margin-top: -12em;
-    width: 100%;
+    width: 804px;
     padding: 10px;
     position: absolute;
     background-color: rgba(0, 0, 0, 60%);
