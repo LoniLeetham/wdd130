@@ -63,7 +63,7 @@ nav {
 }
 
 .navigation a:hover {
-    color: #F85E00;
+    color: var(--accent2-color);
     text-decoration: underline;
 }
 
@@ -72,6 +72,14 @@ h2,
 h3 {
     color: var(--accent2-color) !important;
     text-align: center !important;
+    text-align: center !important;
+    max-width: 940px;
+}
+
+h2 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-indent: 180%;
 }
 
 
@@ -109,12 +117,11 @@ h3 {
 }
 
 .hero p {
-    position: absolute;
-    color: #fff;
+    color: var(--secondary-color);
     padding: 30px;
     padding-right: 16em;
     margin-top: -2em;
-    background-color: rgba(0, 0, 0, 30%);
+    background-color: rgba(0, 0, 0, 60%);
 }
 
 .hero article img {
@@ -126,16 +133,14 @@ h3 {
     z-index: 1;
 }
 
-article .happy-client {
-    z-index: 1;
-}
-
 .history {
     display: flex;
     flex-flow: row;
     height: 350px;
-    margin-top: 10px;
+    margin-top: 25px;
     border: 2px #F85E00 solid;
+    background-color: rgba(91, 84, 50, 20%);
+
 }
 
 .column1,
@@ -146,12 +151,13 @@ article .happy-client {
     margin-top: 20px;
     align-items: center;
     width: 300px;
-    color: var(--secondary-color);
+    color: var(--accent2-color);
 }
 
 .column1,
 .column3 {
     font-size: 20px;
+
 }
 
 .column1 {
@@ -163,48 +169,41 @@ article .happy-client {
     margin-left: -5em;
 }
 
+.image-gallery h2 {
+    text-align: center !important;
+}
 
 .image-gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: minmax(200px, auto);
+    justify-items: center;
     height: 250px;
 }
 
-.image-gallery h2 {
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 1px;
-}
-
-.image-gallery figure {
-    display: flex;
-    flex-flow: row;
-    padding: 10px;
+figure {
+    padding: 40px;
     margin-left: -8em;
 }
 
 .image-gallery img {
-    display: grid;
-    grid-row: inherit;
-    align-items: center;
-    max-width: 200px;
+    max-width: 140px;
     max-height: 100px;
-    padding: 120px;
-    margin-top: -7em;
+    margin-top: 3em;
+    padding-top: 20px;
 }
 
 figcaption {
-    float: left;
-    margin-left: -17em;
-    margin-right: -1em;
-    margin-top: 8em;
     color: #FFB563;
     font-size: 15px;
     margin-bottom: 1em;
+    text-align: center;
 }
 
 
 footer {
     display: grid;
-    grid-template-columns: 640px 1fr 1fr;
+    grid-template-columns: 640px 1fr;
     align-items: center;
     text-align: right;
     margin-top: 20px;
@@ -217,4 +216,9 @@ footer {
 
 footer a {
     text-decoration: none;
+}
+
+#sociallinks {
+    margin-right: 2em;
+    padding: 10px;
 }
