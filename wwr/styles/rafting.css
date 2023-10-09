@@ -34,7 +34,7 @@ header {
     justify-items: center;
     align-items: center;
     max-width: 940px;
-    background-color: var(--secondary-color);
+    background-color: var(--accent2-color);
     font-family: var(--paragraph-font);
 }
 
@@ -89,8 +89,8 @@ h2 {
 
 .hero h1 {
     margin-left: -6.8em;
-    margin-top: 10px;
-    margin-bottom: 2em;
+    margin-top: 1px;
+    margin-bottom: 2.5em;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 940px;
@@ -196,7 +196,7 @@ figure {
 }
 
 figcaption {
-    color: #FFB563;
+    color: #F85E00;
     font-size: 15px;
     margin-bottom: 1em;
     text-align: center;
