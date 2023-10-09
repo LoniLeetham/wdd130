@@ -34,7 +34,7 @@ header {
     justify-items: center;
     align-items: center;
     max-width: 940px;
-    background-color: var(--accent2-color);
+    background-color: var(--secondary-color);
     font-family: var(--paragraph-font);
 }
 
