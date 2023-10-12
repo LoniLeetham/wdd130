@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Serif+4:opsz@8..60&display=swap');
+
+* {
+    font-family: Roboto;
+}
+
+h1 {
+    color: chocolate;
+    text-align: center;
+    font-size: 16px;
+}
+
+form {
+    margin: 2em 4em 1em 4em;
+    max-width: 550px;
+}
+
+fieldset {
+    background-color: blanchedalmond;
+    border-radius: 10px;
+}
+
+legend {
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    width: 450px;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.textq input[type=text] {
+    font-size: 14px;
+    width: 300px;
+    height: 25px;
+    margin-top: 1em;
+    margin-left: 1.5em;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding-left: 5px;
+    background-color: #eee;
+}
+
+.textareaq input[type=textarea] {
+    font-size: 14px;
+    width: 300px;
+    height: 25px;
+    margin-top: 1em;
+    margin-left: 1.5em;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding-left: 5px;
+    background-color: #eee;
+}
+
+.selectq select {
+    color: darkgray;
+    font-size: 14px;
+    margin-top: 1.2em;
+    border: 1px solid #000;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+select {
+    width: 250px;
+    padding: 10px;
+    margin-left: 1.5em;
+}
+
+select,
+input[type=file] {
+    height: 30px;
+}
+
+.numberq input[type=number] {
+    font-size: 14px;
+    width: 100px;
+    height: 25px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1.5em;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+.textq,
+.textareaq,
+.selectq,
+.numberq {
+    width: 400px;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    margin-left: 4em;
+    height: auto;
+}
+
+button {
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    width: 8em;
+    margin-left: 9em;
+    margin-bottom: 2em;
+    background-color: chocolate;
+    border-radius: 7px;
+}
+
+footer {
+    color: chocolate;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    font-size: 14px;
+}
