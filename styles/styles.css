@@ -45,7 +45,7 @@ nav a {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
-    color: #fff;
+    color: #fff;/% shorthand for white %/
 }
 
 h1 {
@@ -68,6 +68,7 @@ img {
 
 p {
     font-family: roboto;
+    width: 24rem;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-right: 20px;
@@ -106,8 +107,16 @@ main img {
     margin-top: 2em;
 }
 
+aside p {
+    width: 14rem;
+}
+
 footer {
     border-top: 1px solid #000;
+    align-content: center;
+}
+
+footer p {
     text-align: center;
 }
 
@@ -127,10 +136,12 @@ footer {
 }
 
 .sociallinks img {
+    margin-top: 20px;
     width: 30px;
+    align-items: right;
 }
 
 .grid {
     display: grid;
-    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
 }
