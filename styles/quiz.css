@@ -101,6 +101,11 @@ input[id=q3] {
     color: var(--accent2-color);
 }
 
+select input[id=q3] {
+    padding: 10px;
+    height: 30px;
+}
+
 input[type=number] {
     font-size: 14px;
     width: 100px;
