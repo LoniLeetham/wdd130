@@ -90,7 +90,7 @@ select {
     width: 300px;
     margin-top: 1.2em;
     margin-left: 3em;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
     border: 1px solid #000;
     background-color: var(--input-color);
     border-radius: 5px;
@@ -98,7 +98,6 @@ select {
 
 select,
 input[id=q3] {
-    height: 35px;
     color: var(--accent2-color);
 }
 
