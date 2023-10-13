@@ -85,9 +85,10 @@ textarea {
 }
 
 select {
-    color: lightgray;
+    color: var(--accent2-color);
     font-size: 14px;
     width: 300px;
+    height: 40px;
     margin-top: 1.2em;
     margin-left: 3em;
     margin-bottom: 3em;
@@ -96,15 +97,6 @@ select {
     border-radius: 5px;
 }
 
-select,
-input[id=q3] {
-    color: var(--accent2-color);
-}
-
-select input[id=q3] {
-    padding: 10px;
-    height: 30px;
-}
 
 input[type=number] {
     font-size: 14px;
