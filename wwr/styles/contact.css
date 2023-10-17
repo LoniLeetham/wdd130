@@ -220,12 +220,6 @@ textarea {
     margin-bottom: 2rem;
 }
 
-.checkboxes {
-    font-family: var(--heading-font);
-    color: var(--accent2-color);
-    margin-bottom: 2rem;
-}
-
 .two_days,
 .four_days,
 .seven_days {
