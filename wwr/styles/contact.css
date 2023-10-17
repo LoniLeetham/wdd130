@@ -256,6 +256,13 @@ button {
     background-color: var(--accent2-color);
 }
 
+form h4 {
+    color: var(--accent2-color);
+    font-family: var(--heading-font);
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
 .image-gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
