@@ -106,17 +106,26 @@ main img {
     float: right;
     width: 250px;
     height: auto;
-    margin-right: -2em;
 }
 
 .business_info p {
     color: var(--accent1-color);
     font-weight: 500;
+    margin-left: 10px;
 }
 
 .business_info a {
     text-decoration: none;
     color: var(--accent1-color);
+}
+
+.map iframe {
+    max-width: 500px;
+    max-height: 250px;
+}
+
+.map {
+    margin-left: 4rem;
 }
 
 .box {
@@ -260,9 +269,7 @@ form h4 {
 .image-gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    justify-items: center;
-    align-items: center;
+    margin-right: 1rem;
 }
 
 #subgrid h2 {
