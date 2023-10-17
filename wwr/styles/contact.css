@@ -81,7 +81,7 @@ h4,
 h5,
 h6 {
     color: var(--secondary-color);
-    font-family: var(heading-font);
+    font-family: var(--heading-font);
     margin-top: 30px;
     margin-bottom: 20px;
 }
@@ -331,6 +331,5 @@ footer p {
 #sociallinks a {
     width: 10px;
     padding-right: 5px;
-    align-items: right;
     text-decoration: none;
 }
