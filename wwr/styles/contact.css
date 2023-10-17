@@ -114,6 +114,11 @@ main img {
     font-weight: 500;
 }
 
+.business_info a {
+    text-decoration: none;
+    color: var(--accent1-color);
+}
+
 .box {
     font-family: var(--paragraph-font);
     margin-top: 2rem;
@@ -170,7 +175,7 @@ legend {
     font: 1em 'Roboto';
     color: var(--accent2-color);
     margin-bottom: 10px;
-    font-weight: 500;
+    font-weight: 1000;
 }
 
 .container {
@@ -192,23 +197,69 @@ input[type=text] {
     border-radius: 2px;
 }
 
+.text_area {
+    margin-top: 1rem;
+}
+
+#extrainfo {
+    padding: 10px;
+    margin-top: 1rem;
+}
+
+textarea {
+    font-size: 14px;
+    width: 15rem;
+    height: auto;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.radio_buttons {
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+    margin-bottom: 2rem;
+}
+
 .checkboxes {
     font-family: var(--heading-font);
     color: var(--accent2-color);
+    margin-bottom: 2rem;
 }
 
 .two_days,
 .four_days,
 .seven_days {
-    padding: 10px;
-    margin-bottom: 10px;
+    padding: 5px;
 }
 
 input[type=checkbox] {
     width: 20px;
     height: auto;
+    justify-content: center;
     align-items: center;
-    justify-items: center;
+}
+
+.inexperienced,
+.some_experience,
+.experienced,
+.children_aged_8-13,
+.children_aged_13-17 {
+    padding: 5px;
+}
+
+button {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 1rem;
+    width: 8em;
+    background-color: var(--accent2-color);
+}
+
+#subgrid {
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-template-rows: repeat(2, 1fr);
 }
 
 /*Footer and Social Media Icons*/

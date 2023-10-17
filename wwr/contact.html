@@ -30,19 +30,29 @@
                 <h1>Get in Touch</h1>
                 <p>
                     <strong>Questions?</strong>
-                    <br>Call us at 800-332-1234. For additional information, or if you would
+                    Call us at 800-332-1234. For additional information, or if you would
                     like to see our digital catalog, please provide your contact information (to the left).<br><br>
-                    We are happy to answer any questions, and will respond within 24 hours.<br>
+                    We are happy to answer any questions, and will respond within 24 hours.
                     <strong>Our office address is 2231 S Hwy 191, Moab UT 84532.</strong>
                 </p>
                 <p>If you have tried both our 800 number and our local line, and have been unable to get through,
                     please call Loni at 801-888-1234. Thank you.</p><br><br>
 
+                <div id="subgrid">
+                    <section class="image-gallery">
+                        <img src="Austin.jpeg" alt="Austin P.">
+                        <img src="Elijah.jpeg" alt="Elijah A.">
+                        <img src="Stacy.jpeg" alt="Stacy B.">
+                        <img src="Sanjay.jpeg" alt="Sanjay P.">
+                    </section>
+                </div>
                 <section class="business_info">
                     <img src="images/paddle_team.jpeg" alt="Paddling As A Team">
-                    <p>📍 2231 S Hwy 191, Moab UT 84532</p>
+                    <p><a href="https://maps.app.goo.gl/KyFvpQ6sRd6Qip2H6" target="_blank">📍 2231 S Hwy 191, Moab UT
+                            84532 </a></p>
                     <p>🕘 Mon-Fri, 9 AM - 5 PM</p>
-                    <p>📧 info@riverratexpedition.com</p>
+                    <p><a href="mailto:info@riverratexpedition.com" target="_blank">📧 info@riverratexpedition.com</a>
+                    </p>
                     <p>📞 800-322-1234</p>
                 </section>
             </div>
@@ -62,24 +72,58 @@
                     </div>
                     <div class="email_address">
                         <label for="email">Email Address:</label><br>
-                        <input type="text" id="email" name="email" placeholder="ex. JohnSmith@email.com">
+                        <input type="text" id="email" name="email" placeholder="ex. JohnSmith@email.com"><br><br>
+                        <div class="text_area">
+                            <label for="extrainfo">Do you have any questions?</label>
+                            <textarea id="extrainfo" name="extrainfo" rows="4"
+                                placeholder="Enter questions here"></textarea>
+                        </div>
+                        <div class="newsletter">
+                            <input type="checkbox" id="newsletter" name="newsletter" value="subscription">
+                            <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                        </div>
                     </div>
                 </div><br>
                 <legend>Choose your expedition:</legend>
-                <div class="checkboxes">
+                <div class="radio_buttons">
                     <div class="two_days">
-                        <input type="checkbox" id="2day" name="2day" value="2daytrip">
+                        <input type="radio" id="2day" name="2day" value="2daytrip">
                         <label for="2day"> 2-day expedition</label>
                     </div>
                     <div class="four_days">
-                        <input type="checkbox" id="4day" name="4day" value="4daytrip">
+                        <input type="radio" id="4day" name="4day" value="4daytrip">
                         <label for="4day"> 4-day expedition</label>
                     </div>
                     <div class="seven_days">
-                        <input type="checkbox" id="7day" name="7day" value="7daytrip">
+                        <input type="radio" id="7day" name="7day" value="7daytrip">
                         <label for="7day">7-day expedition</label>
+                    </div><br>
+                    <legend>Based on your group, check all that apply:</legend>
+                    <div class="checkboxes">
+                        <div class="inexperienced">
+                            <input type="checkbox" id="newbie" name="newbie" value="newbie">
+                            <label for="newbie">Inexperienced</label>
+                        </div>
+                        <div class="some_experience">
+                            <input type="checkbox" id="mid" name="mid" value="midexperience">
+                            <label for="mid">Some experience.</label>
+                        </div>
+                        <div class="experienced">
+                            <input type="checkbox" id="bosslevel" name="bosslevel" value="highexperience">
+                            <label for="bosslevel">A lot of experience.</label>
+                        </div>
+                        <div class="children_aged_8-13">
+                            <input type="checkbox" id="youth" name="youth" value="youthages">
+                            <label for="youth">Youth aged 8-13</label>
+                        </div>
+                        <div class="children_aged_13-17">
+                            <input type="checkbox" id="youngadult" name="youngadult" value="youngadultages">
+                            <label for="youngadult">Youth aged 14-17</label>
+                        </div><br>
+                        <div class=button>
+                            <button type="submit">Submit</button>
+                        </div>
                     </div>
-                </div>
             </form>
         </aside>
     </div>
