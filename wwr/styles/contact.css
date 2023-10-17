@@ -256,10 +256,47 @@ button {
     background-color: var(--accent2-color);
 }
 
-#subgrid {
+.image-gallery {
     display: grid;
-    grid-template-columns: subgrid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+#subgrid h2 {
+    margin-left: 7rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#subgrid h3 {
+    color: var(--accent2-color);
+    margin-left: 6rem;
+    font-weight: 50;
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+figure {
+    padding: 0;
+    margin: 0;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+figcaption {
+    color: var(--accent2-color);
+    font-family: var(--paragraph-font);
+    font-size: 15px;
+    margin-bottom: 6em;
+    margin-left: 60px;
+    align-items: center;
+    text-align: center;
 }
 
 /*Footer and Social Media Icons*/
