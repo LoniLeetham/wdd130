@@ -269,18 +269,17 @@ form h4 {
 .image-gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-right: 1rem;
 }
 
 #subgrid h2 {
-    margin-left: 7rem;
+    margin-left: 6rem;
     margin-bottom: 0;
     padding-bottom: 0;
 }
 
 #subgrid h3 {
     color: var(--accent2-color);
-    margin-left: 6rem;
+    margin-left: 4rem;
     font-weight: 50;
     margin-top: 0;
     padding-top: 10px;
