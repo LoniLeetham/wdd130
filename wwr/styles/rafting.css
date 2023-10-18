@@ -16,6 +16,8 @@
 }
 
 * {
+    max-width: 940px;
+    max-height: auto;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -81,7 +83,9 @@ h6 {
 
 .hero {
     position: absolute;
-    top: 9.7em;
+    top: 8.8em;
+    margin-left: -1em;
+    padding: 0;
 }
 
 .hero h1 {
@@ -432,7 +436,7 @@ footer p {
 }
 
 #sociallinks a {
-    width: 10px;
+    width: 7px;
     padding-right: 5px;
     text-decoration: none;
 }
