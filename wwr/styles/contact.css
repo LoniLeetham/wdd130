@@ -91,7 +91,7 @@ h6 {
     margin-left: 3px;
 }
 
-p {
+.cu_wrapper p {
     font-family: var(--paragraph-font);
     color: var(--secondary-color);
     margin-bottom: 20px;
@@ -242,14 +242,6 @@ input[type=checkbox] {
     align-items: center;
 }
 
-.inexperienced,
-.some_experience,
-.experienced,
-.children_aged_8-13,
-.children_aged_13-17 {
-    padding: 5px;
-}
-
 button {
     color: #fff;
     font-size: 16px;
@@ -266,9 +258,12 @@ form h4 {
     margin-top: 10px;
 }
 
-.image-gallery {
+.rafting_guides {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
 }
 
 #subgrid h2 {
@@ -278,6 +273,7 @@ form h4 {
 }
 
 #subgrid h3 {
+    grid-column: 1/5;
     color: var(--accent2-color);
     margin-left: 4rem;
     font-weight: 50;
@@ -290,13 +286,13 @@ figure {
     margin: 0;
 }
 
-.image-gallery img {
+.rafting_guides img {
     width: 100%;
     height: auto;
     padding: 10px;
 }
 
-figcaption {
+.rafting_guides figcaption {
     color: var(--accent2-color);
     font-family: var(--paragraph-font);
     font-size: 15px;
