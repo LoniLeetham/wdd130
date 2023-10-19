@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>River Rat Rafting Expeditions | Trips Page</title>
+    <meta name="description" content="WDD 130 Web Fundamentals | Course Trips Page">
+    <meta name="author" content="Loni Leetham">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.gif" alt="River Rat Rafting Logo">
+        <nav>
+            <ul class="navigation">
+                <li><a href="site-plan-rafting.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="grid">
+        <main>
+            <div class="cu_wrapper">
+                <h1>Get in Touch</h1>
+                <p>
+                    <strong>Questions?</strong>
+                    Call us at 800-332-1234. For additional information, or if you would
+                    like to see our digital catalog, please provide your contact information (to the left).<br><br>
+                    We are happy to answer any questions, and will respond within 24 hours.
+                    <strong>Our office address is 2231 S Hwy 191, Moab UT 84532.</strong>
+                </p>
+                <p>If you have tried both our 800 number and our local line, and have been unable to get through,
+                    please call Loni at 801-888-1234. Thank you.</p>
+                <div id="subgrid">
+                    <h2>Meet Our Professional Guides</h2>
+                    <h3>All CPR certified, polite, and professional river guides.</h3>
+                    <div class="image-gallery">
+                        <div class="rafting_guides">
+                            <figure><img src="images/Austin.jpeg" alt="Austin P.">
+                                <figcaption>Austin P.</figcaption>
+                            </figure>
+                            <figure><img src="images/Elijah.jpeg" alt="Elijah A.">
+                                <figcaption>Elijah A.</figcaption>
+                            </figure>
+                            <figure><img src="images/Stacy.jpeg" alt="Stacy B.">
+                                <figcaption>Stacy B.</figcaption>
+                            </figure>
+                            <figure><img src="images/Sanjay.jpeg" alt="Sanjay P.">
+                                <figcaption>Sanjay P.</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="business_info">
+                    <img src="images/paddle_team.jpeg" alt="Paddling As A Team">
+                    <p><a href="https://maps.app.goo.gl/KyFvpQ6sRd6Qip2H6" target="_blank">📍 2231 S Hwy 191, Moab UT
+                            84532 </a></p>
+                    <p>🕘 Mon-Fri, 9 AM - 5 PM</p>
+                    <p><a href="mailto:info@riverratexpedition.com" target="_blank">📧 info@riverratexpedition.com</a>
+                    </p>
+                    <p>📞 800-322-1234</p>
+                </div><br>
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4475.020960520859!2d-109.51410560358823!3d38.539422158402516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8747e3b14a192c49%3A0x3e7730a3ff2ee61!2s2231%20S%20Hwy%20191%2C%20Moab%2C%20UT%2084532!5e0!3m2!1sen!2sus!4v1697568977639!5m2!1sen!2sus"
+                        width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </main>
+        <aside class="box">
+            <img src="images/calm_water_paddling.jpeg" alt="Rafting on calm water">
+            <form>
+                <div class="container">
+                    <h2>Contact Information</h2>
+                    <div class="first_name">
+                        <label for="fname">First Name:</label><br>
+                        <input type="text" id="fname" name="fname" placeholder="ex. John">
+                    </div>
+                    <div class="last_name">
+                        <label for="lname">Last Name:</label><br>
+                        <input type="text" id="lname" name="lname" placeholder="ex. Smith">
+                    </div>
+                    <div class="email_address">
+                        <label for="email">Email Address:</label><br>
+                        <input type="text" id="email" name="email" placeholder="ex. JohnSmith@email.com"><br><br>
+                        <div class="text_area">
+                            <label for="extrainfo">Do you have any questions?</label>
+                            <textarea id="extrainfo" name="extrainfo" rows="4"
+                                placeholder="Enter questions here"></textarea>
+                        </div>
+                        <div class="newsletter">
+                            <input type="checkbox" id="newsletter" name="newsletter" value="subscription">
+                            <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="radio_buttons">
+                    <h4>Choose your expedition:</h4>
+                    <div class="two_days">
+                        <input type="radio" id="2day" name="2day" value="2daytrip">
+                        <label for="2day"> 2-day expedition</label>
+                    </div>
+                    <div class="four_days">
+                        <input type="radio" id="4day" name="4day" value="4daytrip">
+                        <label for="4day"> 4-day expedition</label>
+                    </div>
+                    <div class="seven_days">
+                        <input type="radio" id="7day" name="7day" value="7daytrip">
+                        <label for="7day">7-day expedition</label>
+                    </div><br>
+                    <div class=button>
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </aside>
+    </div>
+    <footer>
+        <p>&copy;2024 | River Rat Rafting Expeditions | Loni Leetham</p>
+        <nav id="sociallinks">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="images/facebook.svg" alt="Facebook" width="40">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.svg" alt="Twitter" width="40">
+            </a>
+            <a href="https://www.instagram.com/lonileetham/" target="_blank">
+                <img src="images/instagram.svg" alt="Instagram" width="40">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
