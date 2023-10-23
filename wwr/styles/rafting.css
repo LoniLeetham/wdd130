@@ -189,6 +189,7 @@ main {
     color: var(--secondary-color);
     background-color: rgba(91, 84, 50, 40%);
     box-shadow: 0 0 10px gray;
+    height: 1060px;
 }
 
 aside {
