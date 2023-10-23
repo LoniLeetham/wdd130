@@ -444,9 +444,17 @@ strong {
     position: absolute;
     color: var(--secondary-color);
     text-shadow: 2px 2px 1px #000;
-    top: 6rem;
-    left: 12.9em;
+    top: 7rem;
+    left: 13.5em;
     font-weight: 10;
+}
+
+.call_to_action a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid #000;
+    background-color: var(--primary-color);
 }
 
 .trips {
@@ -461,6 +469,7 @@ strong {
     color: var(--accent2-color);
     text-align: center;
     padding-top: 60px;
+    font-style: italic;
 }
 
 .trips img {
@@ -507,6 +516,11 @@ strong {
     border: 2px solid #000;
     box-shadow: 2px 2px 3px #000;
     margin-left: 7em;
+}
+
+.book_now_button a {
+    text-decoration: none;
+    color: var(--accent2-color);
 }
 
 /*Table Section*/
