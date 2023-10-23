@@ -312,7 +312,7 @@ form h4 {
 
 .cu_wireframe a {
     text-decoration: none;
-    font-family: var(--paragraph-font);
+    font-family: var(--heading-font);
     color: var(--accent2-color);
 }
 
