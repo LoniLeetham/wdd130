@@ -90,7 +90,7 @@ h6 {
 .call_to_action h1 {
     position: absolute;
     color: var(--secondary-color);
-    font-weight: 6000;
+    font-weight: 1000;
     text-shadow: 2px 2px 1px #000;
     width: 700px;
     height: 6em;
@@ -427,7 +427,7 @@ strong {
 .call_to_action h1 {
     position: absolute;
     color: var(--secondary-color);
-    font-weight: 6000;
+    font-weight: 1000;
     text-shadow: 2px 2px 1px #000;
     width: 700px;
     height: 6em;
