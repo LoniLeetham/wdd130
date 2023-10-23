@@ -172,6 +172,19 @@ figcaption {
     text-align: center;
 }
 
+.RRoffers p,
+.RRoffers figcaption {
+    color: var(--secondary-color) !important;
+}
+
+.RRoffers figcaption {
+    font-weight: bold;
+}
+
+.RRoffers p {
+    margin-bottom: 2rem;
+}
+
 .trips_button button {
     background-color: var(--secondary-color);
     color: var(--accent2-color);
@@ -183,15 +196,20 @@ figcaption {
 }
 
 .trips_button {
-    width: 940px;
-    height: 150px;
+    float: right;
+    width: 560px;
+    height: 175px;
+    margin-top: 2rem;
     margin-left: -1rem;
+    margin-right: 1.6rem;
     background-color: var(--primary-color);
+    border: 1px solid #000;
+    box-shadow: 1px 1px 2px #000;
 }
 
 .trips_button h2 {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 5px;
 }
 
 .trips_button a {
@@ -199,9 +217,11 @@ figcaption {
     color: var(--accent2-color);
 }
 
+/*Home Page - Newsletter Form*/
+
 .newsletter_grid {
     font-family: var(--paragraph-font);
-    margin-left: 2em;
+    margin-left: 1em;
 }
 
 .newsletter_grid h2 {
@@ -210,25 +230,28 @@ figcaption {
 
 .newsletter_grid p {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 250px 2fr;
     margin-left: 1em;
 }
 
 .newsletter_img img {
     position: relative;
-    padding: 20px;
     width: 600px;
+    margin-top: 2rem;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 3px #000;
 }
 
 .newsletter_img {
-    margin-top: -21em;
+    margin-top: -13em;
     margin-left: 18em;
+    margin-bottom: 2em;
 }
 
 .newsletter_button button {
     background-color: var(--secondary-color);
     color: var(--accent2-color);
-    font-weight: 400;
+    font-weight: 500;
     font-size: 20px;
     border: 2px solid #000;
     box-shadow: 2px 2px 3px #000;
@@ -236,12 +259,11 @@ figcaption {
 }
 
 .newsletter_button {
-    margin-top: -2em;
-    margin-bottom: 2em;
+    position: absolute;
+    margin-bottom: 2rem;
+    margin-top: -12rem;
 }
 
-
-/*Newletter Form*/
 
 /*Contact Page*/
 /*Contact Info Form*/
@@ -521,7 +543,7 @@ strong {
     color: var(--secondary-color);
     text-shadow: 2px 2px 1px #000;
     top: 7rem;
-    left: 13em;
+    left: 13.7em;
     font-weight: 10;
 }
 
@@ -530,7 +552,7 @@ strong {
     color: var(--primary-color);
     text-shadow: 2px 2px 1px #000;
     top: 8rem;
-    left: 18rem;
+    left: 14rem;
     font-weight: 10;
     font-size: 20px;
 }
