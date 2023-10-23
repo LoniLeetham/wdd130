@@ -87,14 +87,19 @@ h6 {
     padding: 0;
 }
 
-.hero h1 {
+.call_to_action h1 {
     position: absolute;
-    width: 940px;
-    top: -30px;
+    color: var(--secondary-color);
+    font-weight: 6000;
+    text-shadow: 2px 2px 1px #000;
+    width: 700px;
+    height: 6em;
+    top: 2px;
+    left: 4em;
     text-align: center;
-    margin-left: -.9em;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 100%);
+    padding-top: 3rem;
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 60%);
 }
 
 .hero img {
@@ -102,31 +107,6 @@ h6 {
     object-fit: cover;
     margin-top: -3em;
     height: 20em;
-}
-
-.hero article {
-    position: absolute;
-    top: -1em;
-    padding: 30px;
-    font-family: var(--paragraph-font);
-    color: var(--secondary-color);
-    font-size: 22px;
-}
-
-.hero p {
-    color: var(--secondary-color);
-    padding: 30px;
-    padding-right: 14em;
-    margin-top: 3em;
-    background-color: rgba(0, 0, 0, 60%);
-}
-
-.hero article img {
-    width: 250px;
-    height: auto;
-    float: right;
-    margin-top: 3.7em;
-    padding-right: 40px;
 }
 
 .history {
@@ -177,10 +157,15 @@ figure {
 
 figcaption {
     color: var(--accent2-color);
-    font-size: 15px;
+    font-size: 12px;
     margin-bottom: 1em;
     text-align: center;
 }
+
+/*Home Page*/
+
+
+/*Newletter Form*/
 
 /*Contact Page*/
 /*Contact Info Form*/
@@ -323,6 +308,12 @@ form h4 {
     font-family: var(--heading-font);
     padding-top: 10px;
     margin-top: 10px;
+}
+
+.cu_wireframe a {
+    text-decoration: none;
+    font-family: var(--paragraph-font);
+    color: var(--accent2-color);
 }
 
 /*Questions Paragraph*/
@@ -576,14 +567,15 @@ table {
 
 footer {
     display: grid;
-    grid-template-columns: 4fr 2fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
     height: 70px;
     color: var(--accent2-color);
     background-color: var(--primary-color);
     margin-top: 1rem;
 }
 
-footer p {
+footer p,
+.cu_wireframe {
     margin-top: 1.7rem;
     margin-left: 2rem;
     color: var(--accent2-color);
@@ -592,7 +584,7 @@ footer p {
 
 #sociallinks {
     margin-right: -7em;
-    margin-left: 10em;
+    margin-left: 5em;
     padding-top: 15px;
 }
 
