@@ -107,7 +107,8 @@ footer {
     color: var(--accent2-color);
     background-color: var(--primary-color);
     font-family: var(--heading-font);
+}
 
-    footer p {
-        margin-bottom: 2em;
-    }
+footer p {
+    margin-bottom: 2em;
+}
