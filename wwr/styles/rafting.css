@@ -80,11 +80,47 @@ h6 {
     margin-bottom: 20px;
 }
 
-.hero {
+.hero img {
+    position: relative;
+    width: 940px;
+    object-fit: cover;
+    margin-top: -1rem;
+    margin-left: -1rem;
+}
+
+.hero h1 {
     position: absolute;
-    top: 8.8em;
-    margin-left: -1em;
-    padding: 0;
+    color: var(--secondary-color);
+    text-align: center;
+    margin-top: -15rem;
+    margin-left: 6.6rem;
+    padding: 20px;
+    font-weight: 1000;
+    text-shadow: 2px 2px 1px #000;
+    width: 700px;
+    height: 220px;
+    background-color: rgba(0, 0, 0, 60%);
+}
+
+.hero p {
+    position: absolute;
+    color: var(--primary-color);
+    text-shadow: 2px 2px 1px #000;
+    margin-top: -10rem;
+    margin-left: 10rem;
+    width: 350px;
+}
+
+.happyclient {
+    position: absolute;
+    width: 200px;
+    margin-top: -11rem;
+    margin-left: 35rem;
+}
+
+.happy-client img {
+    float: right;
+    margin-top: 3em;
 }
 
 .call_to_action h1 {
@@ -102,17 +138,10 @@ h6 {
     background-color: rgba(0, 0, 0, 60%);
 }
 
-.hero img {
-    width: 100%;
-    object-fit: cover;
-    margin-top: -3em;
-    height: 20em;
-}
-
 .history {
     display: grid;
     grid-template-columns: 1fr 300px 1fr;
-    margin-top: 6em;
+    margin-top: 1em;
     margin-bottom: 2em;
 }
 
@@ -137,6 +166,7 @@ h6 {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
+    margin-bottom: 2rem;
     justify-items: center;
     align-items: center;
 }
