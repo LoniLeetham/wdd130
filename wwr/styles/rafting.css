@@ -545,8 +545,10 @@ strong {
     position: absolute;
     color: var(--secondary-color);
     text-shadow: 2px 2px 1px #000;
-    top: 7rem;
-    left: 13em;
+    width: 500px;
+    text-align: center;
+    top: 7.5rem;
+    left: 15rem;
     font-weight: 10;
 }
 
@@ -554,12 +556,12 @@ strong {
     position: absolute;
     color: var(--primary-color);
     text-shadow: 2px 2px 1px #000;
-    text-align: center;
-    width: 700px;
+    width: 600px;
     top: 8rem;
-    left: 14rem;
+    left: 11.4rem;
     font-weight: 10;
     font-size: 20px;
+    text-align: center;
 }
 
 .call_to_action a {
