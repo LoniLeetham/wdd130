@@ -541,20 +541,6 @@ strong {
     padding: 0;
 }
 
-.call_to_action h1 {
-    position: absolute;
-    color: var(--secondary-color);
-    font-weight: 1000;
-    text-shadow: 2px 2px 1px #000;
-    width: 700px;
-    height: 6em;
-    top: 1px;
-    left: 3.7em;
-    text-align: center;
-    padding-left: 20px;
-    background-color: rgba(0, 0, 0, 60%);
-}
-
 .call_to_action h2 {
     position: absolute;
     color: var(--secondary-color);
@@ -569,7 +555,7 @@ strong {
     color: var(--primary-color);
     text-shadow: 2px 2px 1px #000;
     text-align: center;
-    width: 500px;
+    width: 700px;
     top: 8rem;
     left: 14rem;
     font-weight: 10;
