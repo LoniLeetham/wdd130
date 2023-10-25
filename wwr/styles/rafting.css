@@ -137,8 +137,6 @@ header img {
 
 /*Home Page*/
 
-
-
 .expedition_details {
     display: grid;
     grid-template-columns: 300px 300px 300px;
@@ -185,6 +183,11 @@ header img {
     box-shadow: 1px 1px 2px #000;
 }
 
+.trips_button h2 {
+    text-align: center;
+    padding-top: 5px;
+}
+
 .trips_button button {
     background-color: var(--secondary-color);
     color: var(--accent2-color);
@@ -193,11 +196,6 @@ header img {
     border: 2px solid #000;
     box-shadow: 2px 2px 3px #000;
     margin-left: 16em;
-}
-
-.trips_button h2 {
-    text-align: center;
-    padding-top: 5px;
 }
 
 .trips_button a {
@@ -210,10 +208,6 @@ header img {
 .newsletter_grid {
     font-family: var(--paragraph-font);
     margin-left: 1em;
-}
-
-.newsletter_grid h2 {
-    margin-left: .5em;
 }
 
 .newsletter_grid p {
