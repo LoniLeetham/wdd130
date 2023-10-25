@@ -1,0 +1,744 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Serif+4:opsz@8..60&display=swap');
+
+:root {
+    --primary-color: #FFD29D;
+    --secondary-color: #F85E00;
+    --accent1-color: #918450;
+    --accent2-color: #000;
+
+    --heading-font: 'Roboto', sans-serif;
+    --paragraph-font: 'Source Serif 4', serif;
+
+    --nav-background-color: #FFD29D;
+    --nav-link-color: #000;
+    --nav-hover-link-color: #FFD29D;
+    --nav-hover-background-color: #000;
+}
+
+* {
+    max-width: 940px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid,
+main,
+footer,
+nav {
+    max-width: 940px;
+}
+
+main {
+    font-family: var(--heading-font);
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--secondary-color);
+    font-family: var(--heading-font);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/*Navigation*/
+
+header {
+    display: grid;
+    grid-template-columns: 100px 2fr 1fr;
+    background-color: var(--primary-color);
+    font-family: var(--heading-font);
+}
+
+header img {
+    width: 5rem;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 4rem;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    margin-top: 35px;
+    margin-right: -30em;
+    margin-left: 15em;
+}
+
+.navigation a {
+    display: inline-block;
+    color: var(--accent2-color);
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: var(--primary-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+/*Shared Top Portion*/
+
+.call_to_action {
+    position: absolute;
+    top: 5.7em;
+    margin-left: -1em;
+    padding: 0;
+}
+
+.call_to_action h1 {
+    position: absolute;
+    color: var(--secondary-color);
+    font-weight: 1000;
+    text-shadow: 2px 2px 1px #000;
+    width: 700px;
+    height: 6em;
+    top: 2px;
+    left: 4em;
+    text-align: center;
+    padding-top: 3rem;
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 60%);
+}
+
+.call_to_action h2 {
+    position: absolute;
+    color: var(--secondary-color);
+    text-shadow: 2px 2px 1px #000;
+    width: 500px;
+    text-align: center;
+    top: 7.5rem;
+    left: 15rem;
+    font-weight: 10;
+}
+
+.call_to_action p {
+    position: absolute;
+    color: var(--primary-color);
+    text-shadow: 2px 2px 1px #000;
+    width: 600px;
+    top: 8rem;
+    left: 11.4rem;
+    font-weight: 10;
+    font-size: 20px;
+    text-align: center;
+}
+
+.call_to_action a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid #000;
+    background-color: var(--primary-color);
+}
+
+/*Home Page*/
+
+.hero h1 {
+    position: absolute;
+    color: var(--secondary-color);
+    text-align: center;
+    margin-top: -15rem;
+    margin-left: 6.6rem;
+    padding: 20px;
+    font-weight: 1000;
+    text-shadow: 2px 2px 1px #000;
+    width: 700px;
+    height: 220px;
+    background-color: rgba(0, 0, 0, 60%);
+}
+
+.hero img {
+    position: relative;
+    width: 940px;
+    object-fit: cover;
+    margin-top: -1rem;
+    margin-left: -1rem;
+}
+
+.hero p {
+    position: absolute;
+    color: var(--primary-color);
+    text-shadow: 2px 2px 1px #000;
+    margin-top: -10rem;
+    margin-left: 10rem;
+    width: 350px;
+}
+
+.happyclient {
+    position: absolute;
+    width: 200px;
+    margin-top: -11rem;
+    margin-left: 35rem;
+}
+
+.happy-client img {
+    float: right;
+    margin-top: 3em;
+}
+
+.expedition_details {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    margin-top: 18rem;
+}
+
+.expedition_details img {
+    width: 310px;
+    padding: 20px;
+}
+
+.rafting_info {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+}
+
+.rafting_info img {
+    margin-left: 7em;
+    width: 100px;
+    margin-top: -1em;
+    margin-bottom: -2em;
+}
+
+.rafting_info p {
+    color: var(--secondary-color) !important;
+    padding: 30px;
+    text-align: center;
+}
+
+.expedition_details figcaption {
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--secondary-color);
+}
+
+.trips_button {
+    float: right;
+    width: 560px;
+    height: 175px;
+    margin-top: 2rem;
+    margin-left: -1rem;
+    margin-right: 1.6rem;
+    background-color: var(--primary-color);
+    border: 1px solid #000;
+    box-shadow: 1px 1px 2px #000;
+}
+
+.trips_button button {
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+    font-weight: 400;
+    font-size: 20px;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 3px #000;
+    margin-left: 19em;
+}
+
+.trips_button h2 {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.trips_button a {
+    text-decoration: none;
+    color: var(--accent2-color);
+}
+
+/*HP Newsletter Section*/
+
+.newsletter_grid {
+    font-family: var(--paragraph-font);
+    margin-left: 1em;
+}
+
+.newsletter_grid h2 {
+    margin-left: .5em;
+}
+
+.newsletter_grid p {
+    display: grid;
+    grid-template-columns: 250px 2fr;
+    margin-left: 1em;
+}
+
+.newsletter_img {
+    margin-top: -13em;
+    margin-left: 18em;
+    margin-bottom: 2em;
+}
+
+.newsletter_img img {
+    position: relative;
+    width: 600px;
+    margin-top: 2rem;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 3px #000;
+}
+
+.newsletter_button {
+    position: absolute;
+    margin-bottom: 2rem;
+    margin-top: -12rem;
+}
+
+.newsletter_button button {
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+    font-weight: 500;
+    font-size: 20px;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 3px #000;
+    margin-left: 2em;
+}
+
+/*About Us Page*/
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr 300px 1fr;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.history h2 {
+    grid-column: 1/4;
+    text-align: center;
+}
+
+.history p {
+    font-family: var(--paragraph-font);
+    color: var(--accent2-color);
+    font-size: 18px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.history img {
+    margin-top: 1em;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-bottom: 2rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.image-gallery h2 {
+    grid-column: 1/6;
+}
+
+figure {
+    padding: 0;
+    margin: 0;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    color: var(--accent2-color);
+    font-size: 12px;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+/*Trips Page*/
+
+.trips {
+    margin-top: 15.7rem;
+    margin-left: -1rem;
+    background-color: var(--primary-color);
+    width: 940px;
+    height: 700px;
+}
+
+.trips h2 {
+    color: var(--accent2-color);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 60px;
+    font-style: italic;
+}
+
+.trip_options,
+.trip_info {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+}
+
+.trip_options img {
+    width: 300px;
+    padding: 10px;
+    margin-left: 1.5em;
+}
+
+.trip_options figcaption {
+    font-size: 20px;
+    color: var(--accent2-color);
+    font-family: var(--paragraph-font);
+    margin-left: 1em;
+}
+
+.trip_info img {
+    margin-left: 7em;
+    width: 100px;
+    margin-top: -1em;
+}
+
+.trip_info p {
+    margin-top: -1em;
+    margin-left: 2em;
+    padding: 20px;
+    text-align: center;
+}
+
+.book_now_button button {
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+    font-weight: 700;
+    font-size: 20px;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 3px #000;
+    margin-left: 4em;
+}
+
+.book_now_button a {
+    text-decoration: none;
+    color: var(--accent2-color);
+}
+
+/*TP Table Section*/
+
+.table_img {
+    margin: 1em;
+    padding: 40px;
+    border: 2px solid rgb(200, 200, 200);
+    box-shadow: 2px 2px 2px #eee;
+}
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+    font-family: var(--heading-font);
+    font-weight: 20;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+th[scope='col'] {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+th[scope='row'] {
+    background-color: var(--primary-color);
+}
+
+caption {
+    font-family: var(--heading-font);
+    font-size: 20px;
+    font-weight: 1000;
+    padding: 10px;
+    caption-side: top;
+
+}
+
+table {
+    position: absolute;
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    box-shadow: 2px 2px 2px #eee;
+    letter-spacing: 1px;
+    font-family: var(--heading-font);
+    font-size: 14px;
+    margin-left: 32em;
+    margin-top: -39em;
+}
+
+/*Contact Us Page*/
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.cu_wrapper {
+    width: 600px;
+}
+
+.cu_wrapper h1 {
+    text-align: center;
+    margin-right: 3em;
+}
+
+.cu_wrapper p {
+    font-family: var(--paragraph-font);
+    color: var(--secondary-color);
+    margin-right: 5em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
+/*CU Request Form*/
+
+.box {
+    font-family: var(--paragraph-font);
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding: 2rem;
+    color: var(--secondary-color);
+    background-color: rgba(91, 84, 50, 40%);
+    box-shadow: 0 0 10px gray;
+    height: 1060px;
+}
+
+aside {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-bottom: 2rem;
+    color: var(--secondary-color);
+    border: 1px solid #000;
+    /*  1  */
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+aside h2 {
+    margin-top: 10px;
+    text-align: center;
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+}
+
+aside p {
+    position: absolute;
+    width: 14rem;
+    font: var(--paragraph-font);
+    color: var(--secondary-color);
+}
+
+aside img {
+    width: 300px;
+    margin-bottom: 20px;
+    height: auto;
+    border: 1px solid #000;
+    box-shadow: 0 0 20px gray;
+}
+
+form {
+    top: 5rem;
+    left: 21rem;
+    max-width: 300px;
+    font-family: var(--paragraph-font);
+}
+
+legend {
+    font: 1em 'Roboto';
+    color: var(--accent2-color);
+    margin-bottom: 10px;
+    font-weight: 1000;
+}
+
+.container {
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+}
+
+.first_name,
+.last_name,
+.email_address {
+    padding: 10px;
+}
+
+input[type=text] {
+    font-size: 14px;
+    width: 15rem;
+    height: 25px;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.text_area {
+    margin-top: 1rem;
+}
+
+#extrainfo {
+    padding: 10px;
+    margin-top: 1rem;
+}
+
+textarea {
+    font-size: 14px;
+    width: 15rem;
+    height: auto;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.radio_buttons {
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+    margin-bottom: 2rem;
+}
+
+.two_days,
+.four_days,
+.seven_days {
+    padding: 5px;
+}
+
+input[type=checkbox] {
+    width: 20px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 1rem;
+    width: 10em;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 3px #000;
+}
+
+form h4 {
+    color: var(--accent2-color);
+    font-family: var(--heading-font);
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+/*CU Rafting Guide Images*/
+
+.rafting_guides {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 10px;
+    margin-right: 2em;
+    gap: 12px;
+}
+
+#subgrid {
+    background-color: var(--primary-color);
+    border: 1px solid #000;
+    box-shadow: 0 0 20px gray;
+    width: 550px;
+    margin-bottom: 2rem;
+}
+
+#subgrid h2 {
+    color: var(--accent2-color);
+    margin-left: 6rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#subgrid h3 {
+    color: var(--accent2-color);
+    margin-left: 4rem;
+    font-weight: 50;
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+.rafting_guides img {
+    width: 120px;
+    height: auto;
+    margin-left: 2px;
+}
+
+.rafting_guides figcaption {
+    color: var(--accent2-color);
+    font-family: var(--paragraph-font);
+    font-size: 15px;
+    margin-bottom: 3em;
+    align-items: center;
+    text-align: center;
+}
+
+/*CU Business Info*/
+
+.business_info img {
+    float: right;
+    width: 250px;
+    margin-right: 4em;
+}
+
+.business_info p {
+    color: var(--accent2-color);
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.business_info a {
+    text-decoration: none;
+    color: var(--accent2-color);
+}
+
+.map iframe {
+    max-width: 500px;
+    max-height: 250px;
+}
+
+.map {
+    margin-left: 4rem;
+}
+
+/*Footer and Social Media Icons*/
+
+footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 70px;
+    color: var(--accent2-color);
+    background-color: var(--primary-color);
+    margin-top: 1rem;
+}
+
+footer p {
+    margin-top: 1.7rem;
+    margin-left: 2rem;
+    color: var(--accent2-color);
+    font-family: var(--heading-font);
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--accent2-color);
+}
+
+#sociallinks {
+    margin-right: -7em;
+    margin-left: 5em;
+    padding-top: 15px;
+}
+
+#sociallinks a {
+    width: 7px;
+    padding-right: 5px;
+    text-decoration: none;
+}
