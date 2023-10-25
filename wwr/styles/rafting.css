@@ -96,7 +96,6 @@ header img {
     position: absolute;
     color: var(--secondary-color);
     font-weight: 1000;
-    text-shadow: 2px 2px 1px #000;
     width: 700px;
     height: 6em;
     top: 2px;
@@ -110,7 +109,6 @@ header img {
 .call_to_action h2 {
     position: absolute;
     color: var(--secondary-color);
-    text-shadow: 2px 2px 1px #000;
     width: 500px;
     text-align: center;
     top: 7.5rem;
@@ -121,7 +119,6 @@ header img {
 .call_to_action p {
     position: absolute;
     color: var(--primary-color);
-    text-shadow: 2px 2px 1px #000;
     width: 600px;
     top: 8rem;
     left: 11.4rem;
@@ -265,7 +262,6 @@ header img {
     margin-left: 6.6rem;
     padding: 20px;
     font-weight: 1000;
-    text-shadow: 2px 2px 1px #000;
     width: 700px;
     height: 220px;
     background-color: rgba(0, 0, 0, 80%);
@@ -282,7 +278,6 @@ header img {
 .hero p {
     position: absolute;
     color: var(--primary-color);
-    text-shadow: 2px 2px 1px #000;
     margin-top: -10rem;
     margin-left: 10rem;
     width: 350px;
